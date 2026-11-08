@@ -6,7 +6,7 @@ How I isolated the lab in VirtualBox: every VM runs on Internal Networks
 shared folders.
 
 ## Key decisions
-- Verify download hashes: an altered image = a compromises lab from day one.
+- Verify download hashes: an altered image is a compromised lab from day one.
 - Public repo: it's portfolio evidence employers can read.
 - Push protection: stops me ever committing a key or password by accident.
 
