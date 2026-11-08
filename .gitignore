@@ -1,0 +1,17 @@
+# keys and secrets
+*.key
+*.pem
+*_private*
+wazuh-passwords.txt
+
+# WireGuard configs hold private keys
+*.conf
+MyLaptop.conf
+
+# OPNsense backup holds keys and password hashes
+config.xml
+
+# local junk
+.DS_Store
+Thumbs.db
+*.tmp
