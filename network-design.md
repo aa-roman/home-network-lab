@@ -24,7 +24,7 @@ that ties them together. Every project adds its piece here.
 | WS01 | lab-lan | DHCP | Employee workstation | P4 |
 | wazuh | lab-servers | 192.168.20.20 | Wazuh SIEM | P5 |
 
-## Firewall rules (fill as you build)
+## Firewall rules
 
 - GUEST: DNS to fw01; all RFC1918 blocked+logged; internet allowed. (P2)
 - SERVERS: DNS to fw01; RFC1918 blocked+logged; web egress 80/443 only. (P2)
@@ -33,7 +33,7 @@ that ties them together. Every project adds its piece here.
 - LAN -> GUEST, LAN -> MGMT: blocked+logged. (P2)
 - VPN: wazuh:443 only, logged; everything else blocked+logged. (P8)
 
-## Firewall policy matrix (fill in P9)
+## Firewall policy matrix
 
 | From v / To > | LAN | SERVERS | GUEST | MGMT | Internet |
 | --- | --- | --- | --- | --- | --- |
