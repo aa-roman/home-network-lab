@@ -51,3 +51,4 @@ DisabledComponents = 0xFF; or RA Guard + mirrored v6 rules in production).
 ## Change log
 
 - 2026-11-07 - P0: repo and this file created.
+- 2026-11-11 - P1: fw01 + kali built; LAN 192.168.10.1/24, DHCP .100-.200; TOTP on admin login.
