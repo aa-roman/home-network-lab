@@ -12,7 +12,7 @@ shared folders.
 
 ## Download verification (SHA-256)
 
-All images verified before use — hash computed with `Get-FileHash -Algorithm SHA256`, 
+All images verified before use - hash computed with `Get-FileHash -Algorithm SHA256`, 
 compared to the vendor's published value. ✅ = exact match.
 
 | File | Version | SHA-256 | Verified |
